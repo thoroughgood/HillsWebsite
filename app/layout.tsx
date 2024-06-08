@@ -49,7 +49,7 @@ export default function RootLayout({
               <button className="text-white bg-green-600 hover:bg-green-500 px-3 py-2 rounded flex">
                 <img src={Phone.src} alt="Phone" /> 0490678129
               </button>
-              <button>
+              <button className="hover:bg-green-500">
                 <Link href="http://instagram.com/">
                   <svg
                     width="40"
@@ -71,6 +71,16 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
+        <div className="bg-green-600 flex h-[200px] px-20 py-10 flex-row">
+          <div className="flex flex-col">
+            Opening Hours:
+            <span> Monday - Friday </span>
+            <span> 10:00AM - 5:00PM</span>
+          </div>
+          <div className="pl-10">
+            Extra questions? Contact griffin at: service@hillsfs.com
+          </div>
+        </div>
       </body>
     </html>
   );

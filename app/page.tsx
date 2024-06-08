@@ -1,4 +1,4 @@
-import Background from '@/public/2c796da45110f4245a48c2d65ba39909.jpg';
+import Background from '@/public/openart-160ba66dac90491fb31a736d27d8c774_raw.jpg';
 import Workers from '@/public/Untitled.jpg';
 import NavigationBar from '@/components/navigationBar';
 import InfoCard from '@/components/infoCard';
@@ -6,16 +6,20 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-white">
-      <div className="relative h-[750px] max-h-850">
+      <div className="relative h-[600px] max-h-850">
         <img
           src={Background.src}
           alt="Your Background"
-          className="object-cover h-[750px] w-full max-h-850px"
+          className="object-cover h-[600px] w-full max-h-850px"
         />
         <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-green-800 to-transparent"></div>
       </div>
 
       <div className="inline-block relative left-32 bottom-40 text-lg text-white font-bold">
+        <div className="bg-green-800/30 absolute py-4 px-8 rounded-lg h-48 w-48">
+          {' '}
+          TEST{' '}
+        </div>
         <button className="absolute py-4 px-8 rounded-full bg-transparent border-2 border-white">
           {' '}
           Learn More{' '}
