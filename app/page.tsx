@@ -16,10 +16,7 @@ export default function Home() {
       </div>
 
       <div className="inline-block relative left-32 bottom-40 text-lg text-white font-bold">
-        <div className="bg-green-800/30 absolute py-4 px-8 rounded-lg h-48 w-48">
-          {' '}
-          TEST{' '}
-        </div>
+        <div className="bg-green-950/60 absolute -bottom-20 -left-3 rounded-2xl h-48 w-[524px] shadow-md" />
         <button className="absolute py-4 px-8 rounded-full bg-transparent border-2 border-white">
           {' '}
           Learn More{' '}
@@ -28,7 +25,7 @@ export default function Home() {
           {' '}
           Get a Quote{' '}
         </button>
-        <div className="text-white max-w-80 bottom-5 font-bold absolute">
+        <div className="text-white max-w-lg bottom-5 font-bold absolute">
           We've expanded our ladnscaping services to provide an ample
           amount of details to your garden to improve our cuistomer
           benefits and satifsaction for whatever
