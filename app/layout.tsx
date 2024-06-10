@@ -24,23 +24,23 @@ export default function RootLayout({
           <div className="container mx-auto flex justify-between items-center">
             <div className="flex space-x-4 items-center">
               <Link href="./">
-                <button className="text-white w-32 flex flex-wrap hover:bg-gray-700 p2 rounded">
+                <button className="text-white w-32 flex flex-wrap p2 rounded">
                   Hills Facility Services
                 </button>
               </Link>
               <Link href="/about/">
-                <button className="text-white hover:bg-gray-700 px-3 py-2 rounded">
+                <button className="text-white hover:bg-black/40 px-3 py-2 rounded">
                   About
                 </button>
               </Link>
 
               <Link href="/services/">
-                <button className="text-white hover:bg-gray-700 px-3 py-2 rounded">
+                <button className="text-white hover:bg-black/40 px-3 py-2 rounded">
                   Services
                 </button>
               </Link>
               <Link href="/locations/">
-                <button className="text-white hover:bg-gray-700 px-3 py-2 rounded">
+                <button className="text-white hover:bg-black/40 px-3 py-2 rounded">
                   Locations
                 </button>
               </Link>
